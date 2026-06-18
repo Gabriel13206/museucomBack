@@ -20,6 +20,7 @@ CREATE TABLE IF NOT EXISTS materiais (
   modelo VARCHAR(100),
   fabricante VARCHAR(1000),
   data_fabrico DATE,
+  placa_descritiva LONGTEXT,
   infor_ad LONGTEXT,
   perfil_fabricante LONGTEXT,
   foto LONGTEXT,
